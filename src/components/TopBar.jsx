@@ -9,7 +9,7 @@ export default function TopBar() {
             <p className="text-xs text-gray-500">Tab + Mic • 3-minute cap</p>
           </div>
         </div>
-        <span className="badge">Cloudinary + Multer + SQLite</span>
+        <span className="badge">Enjoy!</span>
       </div>
     </header>
   );
