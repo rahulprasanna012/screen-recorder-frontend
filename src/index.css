@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+
+body { @apply bg-gray-50 text-gray-900; }
+
+.btn { 
+  @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 font-medium transition shadow-sm; 
+}
+.btn-primary { 
+  @apply bg-indigo-600 text-white hover:bg-indigo-700 active:bg-indigo-800; 
+}
+.btn-ghost { 
+  @apply bg-white text-gray-700 hover:bg-gray-50 border border-gray-200; 
+}
+.card { 
+  @apply bg-white rounded-2xl shadow-card p-5; 
+}
+.badge { 
+  @apply inline-flex items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-medium text-gray-600; 
+}

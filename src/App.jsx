@@ -1,9 +1,11 @@
-import React from 'react'
+import TopBar from "./components/TopBar.jsx";
+import RecorderPage from "./pages/RecorderPage.jsx";
 
-const App = () => {
+export default function App() {
   return (
-    <div>App</div>
-  )
+    <div className="min-h-screen">
+      <TopBar />
+      <RecorderPage />
+    </div>
+  );
 }
-
-export default App
